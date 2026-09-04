@@ -1,0 +1,135 @@
+{
+    "result": [
+        {
+            "active_time": 1788541646,
+            "biz_type": 18,
+            "category": "cs",
+            "create_time": 1788541646,
+            "icon": "smart/icon/ay1569237003624Hfrjq/b797cc06a28a49dd46ac1225bdbcbb61.jpg",
+            "id": "bf102fc8f2d338afefrhan",
+            "ip": "176.191.245.113",
+            "lat": "48.81",
+            "local_key": "'(hz(6/^vPp2e!UR",
+            "lon": "2.44",
+            "model": "",
+            "name": "Wood's WDD90",
+            "online": true,
+            "owner_id": "305244666",
+            "product_id": "kiiuovcdvvgxnj0n",
+            "product_name": "Wood's WDD90",
+            "status": [
+                {
+                    "code": "switch",
+                    "value": true
+                },
+                {
+                    "code": "dehumidify_set_enum",
+                    "value": "50"
+                },
+                {
+                    "code": "humidity_indoor",
+                    "value": 71
+                },
+                {
+                    "code": "swing",
+                    "value": false
+                },
+                {
+                    "code": "anion",
+                    "value": true
+                },
+                {
+                    "code": "child_lock",
+                    "value": false
+                },
+                {
+                    "code": "countdown_set",
+                    "value": "cancel"
+                },
+                {
+                    "code": "fault",
+                    "value": 0
+                }
+            ],
+            "sub": false,
+            "time_zone": "+02:00",
+            "uid": "eu17885414673177zGhe",
+            "update_time": 1788541648,
+            "uuid": "a7b918caf4b62dd7",
+            "mapping": {
+                "1": {
+                    "code": "switch",
+                    "type": "Boolean",
+                    "values": {}
+                },
+                "3": {
+                    "code": "dehumidify_set_enum",
+                    "type": "Enum",
+                    "values": {
+                        "range": [
+                            "40",
+                            "50"
+                        ]
+                    }
+                },
+                "6": {
+                    "code": "humidity_indoor",
+                    "type": "Integer",
+                    "values": {
+                        "unit": "%",
+                        "min": 0,
+                        "max": 99,
+                        "scale": 0,
+                        "step": 1
+                    }
+                },
+                "8": {
+                    "code": "swing",
+                    "type": "Boolean",
+                    "values": {}
+                },
+                "10": {
+                    "code": "anion",
+                    "type": "Boolean",
+                    "values": {}
+                },
+                "16": {
+                    "code": "child_lock",
+                    "type": "Boolean",
+                    "values": {}
+                },
+                "17": {
+                    "code": "countdown_set",
+                    "type": "Enum",
+                    "values": {
+                        "range": [
+                            "cancel",
+                            "1h",
+                            "2h",
+                            "3h"
+                        ]
+                    }
+                },
+                "19": {
+                    "code": "fault",
+                    "type": "Bitmap",
+                    "values": {
+                        "label": [
+                            "tank_full"
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "success": true,
+    "t": 1788542754126,
+    "tid": "aeb25c19a88511f1b4625af22fd60e9c",
+    "file": {
+        "name": "tuya-raw.json",
+        "description": "Full raw list of Tuya devices.",
+        "account": "mcac87rw8rqmf83a53ef",
+        "date": "2026-09-04T19:25:53.524380",
+        "tinytuya": "1.20.0"
+    }
+}

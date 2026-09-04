@@ -1,0 +1,83 @@
+[
+    {
+        "name": "Wood's WDD90",
+        "id": "bf102fc8f2d338afefrhan",
+        "key": "'(hz(6/^vPp2e!UR",
+        "mac": "4c:a9:19:93:2b:fd",
+        "uuid": "a7b918caf4b62dd7",
+        "sn": "10014833307179",
+        "category": "cs",
+        "product_name": "Wood's WDD90",
+        "product_id": "kiiuovcdvvgxnj0n",
+        "biz_type": 18,
+        "model": "",
+        "sub": false,
+        "icon": "https://images.tuyaeu.com/smart/icon/ay1569237003624Hfrjq/b797cc06a28a49dd46ac1225bdbcbb61.jpg",
+        "mapping": {
+            "1": {
+                "code": "switch",
+                "type": "Boolean",
+                "values": {}
+            },
+            "3": {
+                "code": "dehumidify_set_enum",
+                "type": "Enum",
+                "values": {
+                    "range": [
+                        "40",
+                        "50"
+                    ]
+                }
+            },
+            "6": {
+                "code": "humidity_indoor",
+                "type": "Integer",
+                "values": {
+                    "unit": "%",
+                    "min": 0,
+                    "max": 99,
+                    "scale": 0,
+                    "step": 1
+                }
+            },
+            "8": {
+                "code": "swing",
+                "type": "Boolean",
+                "values": {}
+            },
+            "10": {
+                "code": "anion",
+                "type": "Boolean",
+                "values": {}
+            },
+            "16": {
+                "code": "child_lock",
+                "type": "Boolean",
+                "values": {}
+            },
+            "17": {
+                "code": "countdown_set",
+                "type": "Enum",
+                "values": {
+                    "range": [
+                        "cancel",
+                        "1h",
+                        "2h",
+                        "3h"
+                    ]
+                }
+            },
+            "19": {
+                "code": "fault",
+                "type": "Bitmap",
+                "values": {
+                    "label": [
+                        "tank_full"
+                    ]
+                }
+            }
+        },
+        "ip": "192.168.1.166",
+        "version": "3.4"
+    }
+]

@@ -1,0 +1,36 @@
+{
+    "timestamp": 1788542771.38506,
+    "devices": [
+        {
+            "id": "bf102fc8f2d338afefrhan",
+            "ip": "192.168.1.166",
+            "active": 2,
+            "encrypt": true,
+            "productKey": "kiiuovcdvvgxnj0n",
+            "token": true,
+            "wf_cfg": true,
+            "name": "Wood's WDD90",
+            "key": "'(hz(6/^vPp2e!UR",
+            "mac": "4c:a9:19:93:2b:fd",
+            "ability": 0,
+            "dev_type": "default",
+            "err": "",
+            "type": "default",
+            "dps": {
+                "dps": {
+                    "1": true,
+                    "3": "50",
+                    "4": "3",
+                    "6": 71,
+                    "8": false,
+                    "10": true,
+                    "16": false,
+                    "17": "cancel",
+                    "19": 16
+                }
+            },
+            "origin": "broadcast",
+            "ver": "3.4"
+        }
+    ]
+}

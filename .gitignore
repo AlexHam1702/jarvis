@@ -1,0 +1,12 @@
+# Python virtual environment
+.venv/
+__pycache__/
+
+# Model weights and large binaries
+weights/
+*.onnx
+*.pt
+
+# System files
+.DS_Store
+Thumbs.db
